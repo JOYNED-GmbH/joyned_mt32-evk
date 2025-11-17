@@ -10437,212 +10437,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ECS-3225Q-33-
 </deviceset>
 </devicesets>
 </library>
-<library name="KSZ9131RNXI-TR">
-<description>&lt;Ethernet ICs Gigabit Ethernet Transceiver with RGMII support&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="QFN50P700X700X90-49N">
-<description>&lt;b&gt;48-LEAD QFN 7 MM X 7 MM PACKAGE_2025&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="2" x="-3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="3" x="-3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="4" x="-3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="5" x="-3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="6" x="-3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="7" x="-3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="8" x="-3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="9" x="-3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="10" x="-3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="11" x="-3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="12" x="-3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="13" x="-2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="-2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="-1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="-1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="-0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="-0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="0.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="0.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="1.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="22" x="1.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="23" x="2.25" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="24" x="2.75" y="-3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="25" x="3.45" y="-2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="26" x="3.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="27" x="3.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="28" x="3.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="29" x="3.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="30" x="3.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="31" x="3.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="32" x="3.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="33" x="3.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="34" x="3.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="35" x="3.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="36" x="3.45" y="2.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="37" x="2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="38" x="2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="39" x="1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="40" x="1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="41" x="0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="42" x="0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="43" x="-0.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="44" x="-0.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="45" x="-1.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="46" x="-1.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="47" x="-2.25" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="48" x="-2.75" y="3.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="49" x="0" y="0" dx="5.15" dy="5.15" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.125" y1="4.125" x2="4.125" y2="4.125" width="0.05" layer="51"/>
-<wire x1="4.125" y1="4.125" x2="4.125" y2="-4.125" width="0.05" layer="51"/>
-<wire x1="4.125" y1="-4.125" x2="-4.125" y2="-4.125" width="0.05" layer="51"/>
-<wire x1="-4.125" y1="-4.125" x2="-4.125" y2="4.125" width="0.05" layer="51"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
-<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
-<circle x="-3.875" y="3.5" radius="0.125" width="0.25" layer="25"/>
-</package>
-</packages>
-<symbols>
-<symbol name="KSZ9131RNXI-TR">
-<wire x1="-22.86" y1="63.5" x2="22.86" y2="63.5" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-68.58" x2="22.86" y2="63.5" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-68.58" x2="-22.86" y2="-68.58" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="63.5" x2="-22.86" y2="-68.58" width="0.254" layer="94"/>
-<text x="-21.59" y="68.58" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="-21.59" y="66.04" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="AVDDH_1" x="-27.94" y="12.7" length="middle"/>
-<pin name="TXRXP_A" x="-27.94" y="-10.16" length="middle"/>
-<pin name="TXRXM_A" x="-27.94" y="-15.24" length="middle"/>
-<pin name="AVDDL_1" x="-27.94" y="5.08" length="middle"/>
-<pin name="TXRXP_B" x="-27.94" y="-20.32" length="middle"/>
-<pin name="TXRXM_B" x="-27.94" y="-25.4" length="middle"/>
-<pin name="TXRXP_C" x="-27.94" y="-30.48" length="middle"/>
-<pin name="TXRXM_C" x="-27.94" y="-35.56" length="middle"/>
-<pin name="AVDDL_2" x="-27.94" y="2.54" length="middle"/>
-<pin name="TXRXP_D" x="-27.94" y="-40.64" length="middle"/>
-<pin name="TXRXM_D" x="-27.94" y="-45.72" length="middle"/>
-<pin name="AVDDH_2" x="-27.94" y="10.16" length="middle"/>
-<pin name="NC_1" x="27.94" y="-60.96" length="middle" rot="R180"/>
-<pin name="NC_2" x="27.94" y="-63.5" length="middle" rot="R180"/>
-<pin name="LED2/PHYAD1" x="-27.94" y="-58.42" length="middle"/>
-<pin name="DVDDH_1" x="-27.94" y="43.18" length="middle"/>
-<pin name="LED1/PME_N1//PHYAD0" x="-27.94" y="-53.34" length="middle"/>
-<pin name="DVDDL_1" x="-27.94" y="33.02" length="middle"/>
-<pin name="TXD0" x="27.94" y="-50.8" length="middle" rot="R180"/>
-<pin name="TXD1" x="27.94" y="-48.26" length="middle" rot="R180"/>
-<pin name="TXD2" x="27.94" y="-45.72" length="middle" rot="R180"/>
-<pin name="TXD3" x="27.94" y="-43.18" length="middle" rot="R180"/>
-<pin name="DVDDL_2" x="-27.94" y="30.48" length="middle"/>
-<pin name="TXC" x="27.94" y="-15.24" length="middle" rot="R180"/>
-<pin name="MDC" x="27.94" y="0" length="middle" rot="R180"/>
-<pin name="RXC/PHYAD2" x="27.94" y="-12.7" length="middle" rot="R180"/>
-<pin name="DVDDH_2" x="-27.94" y="40.64" length="middle"/>
-<pin name="RX_CTL/CLK125_EN" x="27.94" y="-20.32" length="middle" rot="R180"/>
-<pin name="RXD0/MODE0" x="27.94" y="-25.4" length="middle" rot="R180"/>
-<pin name="RXD1/MODE1" x="27.94" y="-27.94" length="middle" rot="R180"/>
-<pin name="DVDDL_4" x="-27.94" y="25.4" length="middle"/>
-<pin name="VSS" x="-27.94" y="58.42" length="middle"/>
-<pin name="RXD2/MODE2" x="27.94" y="-30.48" length="middle" rot="R180"/>
-<pin name="RXD3/MODE3" x="27.94" y="-33.02" length="middle" rot="R180"/>
-<pin name="DVDDL_3" x="-27.94" y="27.94" length="middle"/>
-<pin name="TX_CTL" x="27.94" y="-17.78" length="middle" rot="R180"/>
-<pin name="P_VSS" x="-27.94" y="-2.54" length="middle"/>
-<pin name="ISET" x="-27.94" y="48.26" length="middle"/>
-<pin name="NC_3" x="27.94" y="-66.04" length="middle" rot="R180"/>
-<pin name="XI" x="27.94" y="17.78" length="middle" rot="R180"/>
-<pin name="XO" x="27.94" y="20.32" length="middle" rot="R180"/>
-<pin name="AVDDL_PLL" x="-27.94" y="17.78" length="middle"/>
-<pin name="LDO_O" x="-27.94" y="53.34" length="middle"/>
-<pin name="RESET_N" x="27.94" y="7.62" length="middle" rot="R180"/>
-<pin name="CLK125_NDO/LED_MODE" x="27.94" y="12.7" length="middle" rot="R180"/>
-<pin name="DVDDH_3" x="-27.94" y="38.1" length="middle"/>
-<pin name="DVDDL_5" x="-27.94" y="22.86" length="middle"/>
-<pin name="INT_N/PME_N2/ALLPHYAD" x="27.94" y="-7.62" length="middle" rot="R180"/>
-<pin name="MDIO" x="27.94" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="KSZ9131RNXI-TR" prefix="IC">
-<description>&lt;b&gt;Ethernet ICs Gigabit Ethernet Transceiver with RGMII support&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/00002841B.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="KSZ9131RNXI-TR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN50P700X700X90-49N">
-<connects>
-<connect gate="G$1" pin="AVDDH_1" pad="1"/>
-<connect gate="G$1" pin="AVDDH_2" pad="12"/>
-<connect gate="G$1" pin="AVDDL_1" pad="4"/>
-<connect gate="G$1" pin="AVDDL_2" pad="9"/>
-<connect gate="G$1" pin="AVDDL_PLL" pad="44"/>
-<connect gate="G$1" pin="CLK125_NDO/LED_MODE" pad="41"/>
-<connect gate="G$1" pin="DVDDH_1" pad="16"/>
-<connect gate="G$1" pin="DVDDH_2" pad="34"/>
-<connect gate="G$1" pin="DVDDH_3" pad="40"/>
-<connect gate="G$1" pin="DVDDL_1" pad="18"/>
-<connect gate="G$1" pin="DVDDL_2" pad="23"/>
-<connect gate="G$1" pin="DVDDL_3" pad="26"/>
-<connect gate="G$1" pin="DVDDL_4" pad="30"/>
-<connect gate="G$1" pin="DVDDL_5" pad="39"/>
-<connect gate="G$1" pin="INT_N/PME_N2/ALLPHYAD" pad="38"/>
-<connect gate="G$1" pin="ISET" pad="48"/>
-<connect gate="G$1" pin="LDO_O" pad="43"/>
-<connect gate="G$1" pin="LED1/PME_N1//PHYAD0" pad="17"/>
-<connect gate="G$1" pin="LED2/PHYAD1" pad="15"/>
-<connect gate="G$1" pin="MDC" pad="36"/>
-<connect gate="G$1" pin="MDIO" pad="37"/>
-<connect gate="G$1" pin="NC_1" pad="13"/>
-<connect gate="G$1" pin="NC_2" pad="14"/>
-<connect gate="G$1" pin="NC_3" pad="47"/>
-<connect gate="G$1" pin="P_VSS" pad="49"/>
-<connect gate="G$1" pin="RESET_N" pad="42"/>
-<connect gate="G$1" pin="RXC/PHYAD2" pad="35"/>
-<connect gate="G$1" pin="RXD0/MODE0" pad="32"/>
-<connect gate="G$1" pin="RXD1/MODE1" pad="31"/>
-<connect gate="G$1" pin="RXD2/MODE2" pad="28"/>
-<connect gate="G$1" pin="RXD3/MODE3" pad="27"/>
-<connect gate="G$1" pin="RX_CTL/CLK125_EN" pad="33"/>
-<connect gate="G$1" pin="TXC" pad="24"/>
-<connect gate="G$1" pin="TXD0" pad="19"/>
-<connect gate="G$1" pin="TXD1" pad="20"/>
-<connect gate="G$1" pin="TXD2" pad="21"/>
-<connect gate="G$1" pin="TXD3" pad="22"/>
-<connect gate="G$1" pin="TXRXM_A" pad="3"/>
-<connect gate="G$1" pin="TXRXM_B" pad="6"/>
-<connect gate="G$1" pin="TXRXM_C" pad="8"/>
-<connect gate="G$1" pin="TXRXM_D" pad="11"/>
-<connect gate="G$1" pin="TXRXP_A" pad="2"/>
-<connect gate="G$1" pin="TXRXP_B" pad="5"/>
-<connect gate="G$1" pin="TXRXP_C" pad="7"/>
-<connect gate="G$1" pin="TXRXP_D" pad="10"/>
-<connect gate="G$1" pin="TX_CTL" pad="25"/>
-<connect gate="G$1" pin="VSS" pad="29"/>
-<connect gate="G$1" pin="XI" pad="46"/>
-<connect gate="G$1" pin="XO" pad="45"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="KSZ9131RNXI-TR" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ksz9131rnxi-tr/microchip-technology" constant="no"/>
-<attribute name="DESCRIPTION" value="Ethernet ICs Gigabit Ethernet Transceiver with RGMII support" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="KSZ9131RNXI-TR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="579-KSZ9131RNXI-TR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/KSZ9131RNXI-TR?qs=BJlw7L4Cy789Cac5LmZgdg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ESHF-110-01-L-D-TH">
 <description>&lt;.050" Shrouded Terminal Strip For FFSD, through hole, dual row, 10 positions per row&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -10954,10 +10748,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <attribute name="MPN" value="687330124422"/>
 </part>
 <part name="FL4" library="xmos_avb_brd_V4" deviceset="BLM21AG471SN1D_BLM21AG471SN1D" device=""/>
-<part name="R19" library="xmos_avb_brd_V4" deviceset="RCL_R-EU_" device="R0402" value="43R2">
-<attribute name="DNP" value="DNP"/>
-</part>
-<part name="SUPPLY24" library="xmos_avb_brd_V4" deviceset="SUPPLY2_GND" device=""/>
 <part name="C24" library="xmos_avb_brd_V4" deviceset="RCL_C-EU" device="C0402" value="100n"/>
 <part name="FL2" library="xmos_avb_brd_V4" deviceset="BLM21PG331SN1D_BLM21PG331SN1D" device=""/>
 <part name="R48" library="xmos_avb_brd_V4" deviceset="RCL_R-EU_" device="R0402" value="0"/>
@@ -10981,7 +10771,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <part name="FRAME3" library="xmos_avb_brd_V4" deviceset="FRAMES_A3L-LOC" device=""/>
 <part name="FRAME4" library="xmos_avb_brd_V4" deviceset="FRAMES_A3L-LOC" device=""/>
 <part name="FRAME1" library="xmos_avb_brd_V4" deviceset="FRAMES_A3L-LOC" device=""/>
-<part name="IC3" library="KSZ9131RNXI-TR" deviceset="KSZ9131RNXI-TR" device=""/>
 <part name="J3" library="ESHF-110-01-L-D-TH" deviceset="ESHF-110-01-L-D-TH" device=""/>
 <part name="SUPPLY27" library="xmos_avb_brd_V4" deviceset="SUPPLY2_GND" device=""/>
 <part name="C9" library="xmos_avb_brd_V4" deviceset="RCL_C-EU" device="C1206" value="1u"/>
@@ -11195,14 +10984,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <instance part="X3" gate="-30" x="363.22" y="-208.28" smashed="yes">
 <attribute name="NAME" x="365.76" y="-209.042" size="1.524" layer="95"/>
 </instance>
-<instance part="R19" gate="G$1" x="101.6" y="-71.12" smashed="yes">
-<attribute name="NAME" x="97.79" y="-69.6214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="97.79" y="-74.422" size="1.778" layer="96"/>
-<attribute name="DNP" x="104.14" y="-68.58" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY24" gate="GND" x="96.52" y="-76.2" smashed="yes">
-<attribute name="VALUE" x="94.615" y="-79.375" size="1.778" layer="96"/>
-</instance>
 <instance part="C24" gate="G$1" x="63.5" y="-91.44" smashed="yes">
 <attribute name="NAME" x="65.024" y="-91.059" size="1.778" layer="95"/>
 <attribute name="VALUE" x="65.024" y="-96.139" size="1.778" layer="96"/>
@@ -11394,8 +11175,10 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <pinref part="C28" gate="G$1" pin="2"/>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <wire x1="325.12" y1="-101.6" x2="325.12" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="325.12" y1="-96.52" x2="325.12" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="-96.52" x2="325.12" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="317.98" y1="-96.5" x2="317.98" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="317.98" y1="-96.52" x2="325.12" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="325.12" y="-96.52"/>
 </segment>
 <segment>
@@ -11454,15 +11237,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <pinref part="X3" gate="-25" pin="S"/>
 <wire x1="360.68" y1="-195.58" x2="358.14" y2="-195.58" width="0.1524" layer="91"/>
 <junction x="358.14" y="-195.58"/>
-</segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="SUPPLY24" gate="GND" pin="GND"/>
-<wire x1="96.52" y1="-71.12" x2="96.52" y2="-73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="317.98" y1="-96.5" x2="320.04" y2="-96.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
@@ -11939,63 +11713,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <wire x1="317.5" y1="-144.78" x2="342.9" y2="-144.78" width="0.1524" layer="91"/>
 <label x="317.5" y="-144.78" size="1.778" layer="95"/>
 <pinref part="X3" gate="-5" pin="S"/>
-</segment>
-</net>
-<net name="USB_DM_N" class="2">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_DM"/>
-<wire x1="134.62" y1="-63.5" x2="121.92" y2="-63.5" width="0.1524" layer="91"/>
-<label x="121.92" y="-63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="284.48" y1="-33.02" x2="264.16" y2="-33.02" width="0.1524" layer="91"/>
-<label x="266.7" y="-33.02" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="20"/>
-</segment>
-</net>
-<net name="USB_DP_P" class="2">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_DP"/>
-<wire x1="134.62" y1="-66.04" x2="121.92" y2="-66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="-66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="241.3" y1="-33.02" x2="220.98" y2="-33.02" width="0.1524" layer="91"/>
-<label x="220.98" y="-33.02" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="19"/>
-</segment>
-</net>
-<net name="USB_ID" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_ID"/>
-<wire x1="134.62" y1="-68.58" x2="121.92" y2="-68.58" width="0.1524" layer="91"/>
-<label x="121.92" y="-68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="241.3" y1="-30.48" x2="220.98" y2="-30.48" width="0.1524" layer="91"/>
-<label x="220.98" y="-30.48" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="17"/>
-</segment>
-</net>
-<net name="USB_VBUS" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_VBUS"/>
-<wire x1="134.62" y1="-73.66" x2="121.92" y2="-73.66" width="0.1524" layer="91"/>
-<label x="121.92" y="-73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="284.48" y1="-27.94" x2="264.16" y2="-27.94" width="0.1524" layer="91"/>
-<label x="279.4" y="-27.94" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="16"/>
-</segment>
-</net>
-<net name="USB_RTUNE" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="USB_RTUNE"/>
-<wire x1="134.62" y1="-71.12" x2="106.68" y2="-71.12" width="0.1524" layer="91"/>
-<label x="121.92" y="-71.12" size="1.778" layer="95"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="-71.12" x2="106.68" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X1D37" class="0">
@@ -13296,10 +13013,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <attribute name="LAST_DATE_TIME" x="339.09" y="-246.38" size="2.286" layer="94"/>
 <attribute name="SHEET" x="352.425" y="-251.46" size="2.54" layer="94"/>
 </instance>
-<instance part="IC3" gate="G$1" x="439.42" y="-149.86" smashed="yes">
-<attribute name="NAME" x="417.83" y="-81.28" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="417.83" y="-83.82" size="1.778" layer="96" align="center-left"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -13879,7 +13592,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 <segment>
 <pinref part="J1" gate="G$1" pin="MH2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="-160.02" x2="73.66" y2="-160.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-160.02" x2="71.12" y2="-160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14136,28 +13848,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/shf-1xx-01-x-d-xx-xx-mkt
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="102,1,216.38,157.5,VCC,3V3,,,,"/>
-<approved hash="104,1,119.38,215.9,U1,OTP_VCC,3V3,,,"/>
-<approved hash="104,1,119.38,213.36,U1,USB_VDD,1V0,,,"/>
-<approved hash="104,1,119.38,210.82,U1,USB_VDD33,3V3,,,"/>
-<approved hash="104,1,119.38,218.44,U1,VDD,1V0,,,"/>
-<approved hash="104,1,119.38,205.74,U1,VDDIOL,3V3,,,"/>
-<approved hash="104,1,119.38,203.2,U1,VDDIOR,3V3,,,"/>
-<approved hash="104,1,119.38,200.66,U1,VDDIOT,2V5,,,"/>
-<approved hash="104,1,119.38,60.96,U1,PLL_AGND,GND,,,"/>
-<approved hash="104,1,-35.56,165.1,U2,VDD33,3V3,,,"/>
-<approved hash="104,1,-35.56,200.66,U2,DVDDL,1V1,,,"/>
-<approved hash="104,1,190.5,264.16,U7,VCC,3V3,,,"/>
-<approved hash="104,1,208.28,264.16,U9,VCC,3V3,,,"/>
-<approved hash="117,1,216.38,144.8,GND_2,,,,,"/>
-<approved hash="206,1,243.84,264.16,RST_N,,,,,"/>
-<approved hash="206,1,243.84,261.62,RST_N,,,,,"/>
-<approved hash="206,1,-35.56,35.56,VDDH_REG,,,,,"/>
-<approved hash="206,1,-35.56,38.1,VDDH_REG,,,,,"/>
-<approved hash="113,1,-86.8231,12.7,R11,,,,,"/>
-<approved hash="113,1,-87.4497,-2.54,R38,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>

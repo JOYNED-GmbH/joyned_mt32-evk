@@ -9,30 +9,6 @@
     "output_type": "directory",
     "outputs": [
         {
-            "filename_prefix": "CAMOutputs/DrillFiles",
-            "format_specifier": {
-                "decimal": 3,
-                "integer": 3
-            },
-            "output_type": "drill",
-            "outputs": [
-                {
-                    "drills": {
-                        "NPTH": true,
-                        "PTH": true,
-                        "VIA": true
-                    },
-                    "filename_format": "%DRILLPREFIX/drills.xln",
-                    "layers": {
-                        "from": 1,
-                        "to": 16
-                    },
-                    "name": "Excellon",
-                    "type": "excellon"
-                }
-            ]
-        },
-        {
             "filename_prefix": "CAMOutputs/GerberFiles",
             "format_specifier": {
                 "decimal": 4,
@@ -42,6 +18,13 @@
             "output_type": "gerber",
             "outputs": [
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Copper",
@@ -52,14 +35,21 @@
                     "filename_format": "%PREFIX/copper_top_l1.gbr",
                     "layers": [
                         1,
-                        18,
-                        17
+                        17,
+                        18
                     ],
                     "name": "Top Copper",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Copper",
@@ -73,11 +63,18 @@
                         17,
                         18
                     ],
-                    "name": "EAGLE Copper Layer 2",
+                    "name": "Copper Layer 2",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Copper",
@@ -91,11 +88,18 @@
                         17,
                         18
                     ],
-                    "name": "EAGLE Copper Layer 15",
+                    "name": "Copper Layer 15",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Copper",
@@ -114,6 +118,13 @@
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": true,
                     "config": {
                         "file_function": "Profile",
@@ -127,6 +138,13 @@
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Soldermask",
@@ -142,6 +160,13 @@
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Soldermask",
@@ -157,6 +182,13 @@
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Paste",
@@ -172,6 +204,13 @@
                     "type": "gerber_layer"
                 },
                 {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
                     "board_outline": false,
                     "config": {
                         "file_function": "Paste",
@@ -185,9 +224,99 @@
                     "name": "Solderpaste Bottom",
                     "polarity": "positive",
                     "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%PREFIX/silkscreen_top.gbr",
+                    "layers": [
+                        21,
+                        25
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%PREFIX/silkscreen_bottom.gbr",
+                    "layers": [
+                        22,
+                        26
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
                 }
             ],
             "version": "RS274X"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "filename_format": "%DRILLPREFIX/drill_%FROM_%TO.xln",
+                    "name": "Auto Drill",
+                    "type": "autodrills"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+                {
+                    "filename_format": "%ASSEMBLYPREFIX/%N",
+                    "list_attribute": true,
+                    "list_type": "values",
+                    "name": "Bill of Material",
+                    "output_format": "csv",
+                    "type": "bom"
+                },
+                {
+                    "filename_format": "%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
+                    "name": "Pick and Place",
+                    "output_format": "txt",
+                    "type": "pick_and_place"
+                }
+            ]
         },
         {
             "filename_prefix": "CAMOutputs/DrawingFiles",
@@ -196,7 +325,7 @@
             ]
         }
     ],
-    "timestamp": "2018-09-15T00:00:00",
+    "timestamp": "2019-07-17T17:49:43",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
