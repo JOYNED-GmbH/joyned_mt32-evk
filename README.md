@@ -3,6 +3,6 @@ Please feel free to copy and modify for your individual needs. This hardware ref
 
 For software licensing visit www.joyned.io/oem-and-licensing
 
-Product deatils: https://joyned.io/pages/mt32-oem-milan-endpoint
+Product details: https://joyned.io/pages/mt32-oem-milan-endpoint
 
 Portmap Spreadsheet: https://docs.google.com/spreadsheets/d/1wGiAsmqoAx-SCyp8chBWGLcsXNjXNMac/edit?usp=sharing&ouid=117707157139290935933&rtpof=true&sd=true
