@@ -5,4 +5,4 @@ For software licensing visit www.joyned.io/oem-and-licensing
 
 Product details: https://joyned.io/pages/mt32-oem-milan-endpoint
 
-Portmap Spreadsheet: https://docs.google.com/spreadsheets/d/1wGiAsmqoAx-SCyp8chBWGLcsXNjXNMac/edit?usp=sharing&ouid=117707157139290935933&rtpof=true&sd=true
+Portmap Spreadsheet: https://files.joyned.io/uploads/documents/mt32-evk/JOYNED_xCORE-200-Devices-Package-and-Portmap_AvbModule_MT32.xlsx
